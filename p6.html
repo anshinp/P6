@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C or D or SC </title>
+</head>
+
+<body>
+    <script>
+        var c = prompt("Enter the data: ")
+        if (/^[a-zA-Z]+$/.test(c)) {
+            alert("Entered data is alphabet.")
+        }
+        else if (/^\d$/.test(c)) {
+            alert("Entered data is a digit")
+        }
+        else {
+            alert("Entered data is special character.")
+        }
+
+    </script>
+</body>
+
+</html>
